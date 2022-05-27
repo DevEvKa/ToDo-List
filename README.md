@@ -2,6 +2,7 @@
 
 The practice task is a simple Todo List application written without using libraries with pure JS only.
 
+(Follow the [link](https://devevka.github.io/ToDo-List/) to check the finished project.)
 
 ## Basic requirement 
 
