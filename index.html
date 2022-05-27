@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+    <title>ToDo List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/eb0faa1fbe.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+		<div class="container">
+			<header class="header">
+				<div class="container_inner">
+					<div class="header_title">
+						<h1 class="header_name">Todo List</h1>
+					</div>
+					<div class="header_search">
+						<input type="text" placeholder="Search..." class='search-input'>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<div class="container_inner container_column">
+					<section class="add">
+						<input type="text" placeholder="New task..." class = add_input>
+						<button type="submit" class="add-btn">Add</button>
+					</section>
+					<section class="open">
+						<div class="section_title">
+							<h2 class="section_name">Open</h2>
+							<div class="section_selection">
+								<select class="select">
+									<option selected>Date creation (Asc)</option>
+									<option>Date creation (Desc)</option>
+								</select>
+							</div>
+						</div>
+						<ul class="section_tasks open_tasks">
+						</ul>
+						<div class="section_clear">
+							<button class="clear_btn clear_open">Clear "Open" list</button>
+						</div>
+					</section>
+					<section class="done">
+						<div class="section_title">
+							<h2 class="section_name">Done</h2>
+							<div class="section_selection">
+								<select class="select">
+									<option>Text (Asc)</option>
+									<option selected>Text (Desc)</option>
+								</select>
+							</div>
+						</div>
+						<ul class="section_tasks done_tasks">
+						</ul>
+						<div class="section_clear">
+							<button class="clear_btn clear_done">Clear "Done" list</button>
+						</div>
+					</section>
+				</div>
+			</main>
+		</div>
+		<script src="index.js"></script>
+  </body>
+</html>
